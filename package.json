@@ -1,5 +1,8 @@
 {
   "name": "vue-element-nocode-admin",
+  "bin": {
+    "xu": "./bin/xu.js"
+  },
   "version": "0.1.0",
   "private": true,
   "author": "sarva",
@@ -24,6 +27,7 @@
     "dev": "vue-cli-service serve"
   },
   "dependencies": {
+    "commander": "^2.20.0",
     "core-js": "^2.6.5",
     "element-ui": "^2.10.1",
     "highlight.js": "^9.15.8",
